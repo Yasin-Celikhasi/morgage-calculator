@@ -22,7 +22,7 @@ function App() {
     homeValue: 3000,
     downPayment: 3000 * 0.2,
     loanAmount: 3000 * 0.8,
-    loanTerm: 3000,
+    loanTerm: 5,
     interestRate: 5,
   });
   return (
@@ -39,7 +39,7 @@ function App() {
         <Grid container spacing={10}>
           <Grid item xs={12} md={8}>
             <SliderSelect data={data} setData={setData}></SliderSelect>
-            <TenureSelect></TenureSelect>
+            <TenureSelect data={data} setData={setData}></TenureSelect>
           </Grid>
           <Grid item xs={12} md={4}>
             <Result />
