@@ -36,13 +36,13 @@ function App() {
       </button> */}
       <Navbar />
       <Container maxWidth="md" sx={{ mt: 4 }}>
-        <Grid container spacing={10}>
-          <Grid item xs={12} md={8}>
+        <Grid container spacing={10} alignItems={"center"}>
+          <Grid item xs={12} md={6}>
             <SliderSelect data={data} setData={setData}></SliderSelect>
             <TenureSelect data={data} setData={setData}></TenureSelect>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <Result />
+          <Grid item xs={12} md={6}>
+            <Result data={data} />
           </Grid>
         </Grid>
       </Container>
