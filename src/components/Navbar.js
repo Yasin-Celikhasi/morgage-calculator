@@ -12,7 +12,7 @@ const Navbar = () => {
           component="div"
           sx={{ flexGrow: "1", marginLeft: "100px" }}
         >
-          Morgage Calculator
+          Mortgage Calculator
         </Typography>
       </Toolbar>
     </AppBar>
