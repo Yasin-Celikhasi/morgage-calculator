@@ -4,6 +4,7 @@ import { Stack, Typography } from "@mui/material";
 
 // Props Destructuring
 // Props defined
+
 const SliderComponent = ({
   defaultValue,
   min,
